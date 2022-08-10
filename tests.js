@@ -27,5 +27,9 @@ describe('sayHello', function(){
     // Exercise #3 Add a test to confirm actual vs. expected output.
     it('should return the string "Hello Jane!" when executed', function() {
       expect(sayHello()).toBe("Hello, Jane!");
+    });
+    // Exercise #4 Add another small, simple test
+    it('should return the string "Hello Alex!" when executed', function() {
+      expect(sayHello("Alex")).toBe("Hello, Alex!")
     })
 });
