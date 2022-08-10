@@ -10,6 +10,7 @@ function helloWorld() {
 
 // Exercise #1
 // Exercise #2 Ensure our function returns the right data type.
+// Exercise #3 Add a test to confirm actual vs. expected output.
 function sayHello() {
-    return "";
+    return "Hello, Jane!";
 }
