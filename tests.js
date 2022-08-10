@@ -1,4 +1,5 @@
 // Unit tests for the helloWorld function
+// Exercise #0 - look, guess, test, conclude
 describe('helloWorld', function() {
     it('should be a defined function', function() {
       expect(typeof helloWorld).toBe('function');
@@ -11,5 +12,12 @@ describe('helloWorld', function() {
     });
     it("should never return 'undefined' when called", function() {
       expect(helloWorld()).not.toBe(undefined);
+    });
+});
+
+// Exercise #1 Take your first "Test Drive" by writing your first test!
+describe('sayHello', function(){
+    it('should be a defined function', function(){
+      expect(typeof sayHello).toBe('function');
     });
 });
