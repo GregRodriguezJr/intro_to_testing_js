@@ -18,3 +18,12 @@ function helloWorld() {
 function sayHello(input) {
     return `Hello, ${input}!`;
 }
+
+// Exercise #10
+function isFive(input) {
+    if (input == 5) {
+        return true;
+    } else {
+        return true;
+    }
+}
